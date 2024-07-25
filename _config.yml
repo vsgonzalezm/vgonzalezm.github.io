@@ -8,27 +8,34 @@
 
 # Basic Site Settings
 locale                   : "en-US"
+<<<<<<< HEAD
 title                    : "Valentina González Madariaga "
+=======
+title                    : "Valentina Gonzalez Madariaga"
+>>>>>>> 0dc9fafb501510a3c2eed40fe03788a8462863a3
 title_separator          : "-"
 name                     : &name "Valentina González Madariaga"
 description              : &description "personal description"
 url                      : https://vgonzalezm.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "vsgonzalezm/academicpages.github.io"
-
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Valentina González M. "
+  name             : "Valentina González Madariaga"
+
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Santiago de Chile"
   employer         : "Pontificia Universidad Católica de Chile"
   uri              : # URL
+ HEAD
   email            : "vsgonzalez2@uc.cl" 
+
+
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
