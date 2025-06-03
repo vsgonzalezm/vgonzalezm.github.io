@@ -42,6 +42,7 @@ enableEmoji = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/papillons.jpg"
+  custom_css = ["css/custom.css"]
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "apreshill"
   
