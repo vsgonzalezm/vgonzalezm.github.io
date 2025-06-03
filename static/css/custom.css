@@ -1,26 +1,52 @@
-/* Colores crema y lila */
+/* Colores crema y lila - MÁS ESPECÍFICOS */
 :root {
-  --primary: #8B7EC8;
-  --secondary: #B19CD9;
-  --accent: #D1C4E9;
-  --background: #FFF8E7;
-  --text: #6A5B73;
-  --card-bg: #FFFBF0;
+  --primary: #8B7EC8 !important;
+  --secondary: #B19CD9 !important;
+  --accent: #D1C4E9 !important;
+  --background: #FFF8E7 !important;
+  --text: #6A5B73 !important;
+  --card-bg: #FFFBF0 !important;
 }
 
-body {
-  background-color: var(--background);
-  color: var(--text);
+/* Fuerza el fondo */
+body, html {
+  background-color: #FFF8E7 !important;
+  color: #6A5B73 !important;
 }
 
+/* Navegación */
 .navbar-nav .nav-link {
-  color: var(--primary) !important;
+  color: #8B7EC8 !important;
 }
 
+.navbar-nav .nav-link:hover {
+  color: #B19CD9 !important;
+}
+
+/* Títulos */
 h1, h2, h3, h4, h5, h6 {
-  color: var(--primary);
+  color: #8B7EC8 !important;
 }
 
+/* Enlaces */
 a {
-  color: var(--primary);
+  color: #8B7EC8 !important;
+}
+
+a:hover {
+  color: #B19CD9 !important;
+}
+
+/* Pestañas con colores lila */
+.tab-button {
+  color: #8B7EC8 !important;
+}
+
+.tab-button.active {
+  color: #8B7EC8 !important;
+  border-bottom-color: #8B7EC8 !important;
+}
+
+.tab-button:hover {
+  color: #B19CD9 !important;
 }
