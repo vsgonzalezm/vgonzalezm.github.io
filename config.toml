@@ -1,8 +1,8 @@
-baseURL = "https://hugo-apero-docs.netlify.app/"
+baseURL = "https://vgonzalezm.github.io"
 languageCode = "en"
 theme = "hugo-apero"
-title = "Hugo Apéro"
-author = "Alison Hill"
+title = "Valentina González"
+author = "Valentina González"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 disqusShortname = "" # see params.utterances to use utterances instead of Disqus
@@ -28,9 +28,9 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "RStudio"
+  orgName = "Valentina González"
   orgLocal = "Anywhere"
-  description = "A modern, beautiful, and easily configurable blog theme for Hugo."
+  description = "Personal website - Phd candidate in Sociology"
   favicon = "/img/favicon.ico"
   logo = "/img/lemon.png"
   mainSections = ["blog", "project", "talk"]
