@@ -1,17 +1,20 @@
 ---
-## Configure page content in wide column
-title: "Why apéro?" # leave blank to exclude
-number_featured: 1 # pulling from mainSections in config.toml
-number_categories: 3 # set to zero to exclude
-use_featured: false
+title: "About me"
+subtitle: "PhD Candidate in Sociology"
+excerpt: "Estudiante de doctorado especializada en desigualdades de género y métodos cuantitativos"
+date: 2024-01-01
+author: "Valentina González"
+draft: false
 show_intro: true
 intro: |
-  Apéro is a unique kind of casual get-together in French culture, when you gather with friends and get to know each other better over some apéritifs, snacks, and anything in between. A good apéro is one where you'd happily spend a few hours just hanging out.
-  
-  I hope this theme helps you create your own virtual apéro. A place where you and your site's visitors enjoy spending time, and one that helps folks get to know you better. 
+  Soy estudiante de doctorado en sociología (último año), especializándome en desigualdades de género y estratificación social con métodos cuantitativos.
+
+  I am a PhD student in sociology (final year), specializing in gender inequalities and social stratification using quantitative methods.
 show_outro: true
 outro: |
-  <i class="fas fa-glass-cheers pr2"></i>Sincere thanks to [Maëlle Salmon](https://masalmon.eu/) for her help naming this Hugo theme!
+  **Herramientas:** R/RStudio, GitHub, LaTeX, Análisis estadístico avanzado
+  
+  **Tools:** R/RStudio, GitHub, LaTeX, Advanced statistical analysis
 ---
 
 ** index doesn't contain a body, just front matter above.
