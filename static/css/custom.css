@@ -1,52 +1,85 @@
-/* Colores crema y lila - MÁS ESPECÍFICOS */
+/* Colores espectaculares - Valentina González */
 :root {
-  --primary: #8B7EC8 !important;
-  --secondary: #B19CD9 !important;
-  --accent: #D1C4E9 !important;
-  --background: #FFF8E7 !important;
-  --text: #6A5B73 !important;
-  --card-bg: #FFFBF0 !important;
+  --primary: #8B5FBF !important;     /* Lila más fuerte */
+  --secondary: #A67BC9 !important;   /* Lila medio */
+  --accent: #C3ADFF !important;      /* Tu lila claro original */
+  --background: #C1D4D9 !important;  /* Tu fondo azul claro */
+  --text: #4A4A4A !important;        /* Gris oscuro para contraste */
+  --card-bg: #D5E7EA !important;     /* Azul más claro para tarjetas */
 }
 
 /* Fuerza el fondo */
 body, html {
-  background-color: #FFF8E7 !important;
-  color: #6A5B73 !important;
+  background-color: #C1D4D9 !important;
+  color: #4A4A4A !important;
 }
 
 /* Navegación */
 .navbar-nav .nav-link {
-  color: #8B7EC8 !important;
+  color: #8B5FBF !important;
+  font-weight: 500 !important;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #B19CD9 !important;
+  color: #6B47A3 !important;
+  transition: color 0.3s ease !important;
 }
 
 /* Títulos */
 h1, h2, h3, h4, h5, h6 {
-  color: #8B7EC8 !important;
+  color: #8B5FBF !important;
+  font-weight: 600 !important;
 }
 
 /* Enlaces */
 a {
-  color: #8B7EC8 !important;
+  color: #8B5FBF !important;
 }
 
 a:hover {
-  color: #B19CD9 !important;
+  color: #6B47A3 !important;
+  transition: color 0.3s ease !important;
 }
 
-/* Pestañas con colores lila */
+/* Pestañas con colores actualizados */
 .tab-button {
-  color: #8B7EC8 !important;
+  color: #8B5FBF !important;
+  background-color: rgba(195, 173, 255, 0.1) !important;
 }
 
 .tab-button.active {
-  color: #8B7EC8 !important;
-  border-bottom-color: #8B7EC8 !important;
+  color: #6B47A3 !important;
+  border-bottom-color: #8B5FBF !important;
+  background-color: rgba(195, 173, 255, 0.2) !important;
 }
 
 .tab-button:hover {
-  color: #B19CD9 !important;
+  color: #6B47A3 !important;
+  background-color: rgba(195, 173, 255, 0.15) !important;
+}
+
+/* TAMAÑOS DE LETRA PERSONALIZADOS */
+.about-header h1 {
+  font-size: 1.8rem !important;
+}
+
+.about-header p {
+  font-size: 1rem !important;
+}
+
+/* Mejoras visuales adicionales */
+.card, .bg-white {
+  background-color: #D5E7EA !important;
+  border: 1px solid rgba(139, 95, 191, 0.2) !important;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: #8B5FBF !important;
+  border-color: #8B5FBF !important;
+}
+
+.btn-primary:hover {
+  background-color: #6B47A3 !important;
+  border-color: #6B47A3 !important;
 }
