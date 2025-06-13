@@ -3,7 +3,7 @@ title: "Valentina González M."
 subtitle: "PhD candidate in Sociology"
 description: "Welcome to my personal website"
 images:
-  - img/voir.jpg
+  - img/voir.png
 image_left: false
 text_align_left: true
 show_social_links: true # specify social accounts in site config
