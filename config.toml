@@ -31,8 +31,8 @@ enableEmoji = true
   orgName = "Valentina González"
   orgLocal = "Anywhere"
   description = "Personal website - Phd candidate in Sociology"
-  favicon = "/img/favicon.ico"
-  logo = "/img/lemon.png"
+  favicon = "/img/vgm-logo.png"
+  logo = "/img/vgm-logo.png"
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -44,12 +44,12 @@ enableEmoji = true
   sharing_image = "/img/papillons.jpg"
   custom_css = ["css/custom.css"]
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+  twitter = ""
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = ""
+  theme = "violet"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -82,19 +82,18 @@ enableEmoji = true
   # Icon pack "fab" includes brand icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
   # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
   # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
-  [[params.social]]
-      icon      = "github" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://github.com/vsgonzalezm/"
-  [[params.social]]
-      icon      = "x-twitter" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://twitter.com/vspgm"
-  [[params.social]]
-      icon      = "lemon" # icon name without the 'fa-'
-      icon_pack = "far"
-      url       = "https://hugo-apero.netlify.app/"
-
+[[params.social]]
+    icon      = "github" # icon name without the 'fa-'
+    icon_pack = "fab"
+    url       = "https://github.com/vsgonzalezm/"
+[[params.social]]
+    icon      = "x-twitter" # icon name without the 'fa-'
+    icon_pack = "fab"
+    url       = "https://twitter.com/vspgm"
+[[params.social]]
+    icon      = "orcid" # icon name without the 'fa-'
+    icon_pack = "fab"
+    url       = "https://orcid.org/0000-0002-0810-7545"
 
 [taxonomies]
   category = "categories"
@@ -104,7 +103,7 @@ enableEmoji = true
 [menu]
   [[menu.header]]
     name = "About"
-    title = "About Apéro"
+    title = "About"
     url = "/about/"
     weight = 1
   [[menu.header]]
