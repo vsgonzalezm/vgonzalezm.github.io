@@ -7,7 +7,7 @@ author: "Valentina González"
 draft: false
 show_intro: true
 intro: |
-I am a final-year PhD student in Sociology specializing in gender inequalities and social stratification. My current research focuses on care work and life trajectories, using data from a longitudinal survey through cross-sectional and sequence-based analyses.
+  I am a final-year PhD student in Sociology specializing in gender inequalities and social stratification. My current research focuses on care work and life trajectories, using data from a longitudinal survey through cross-sectional and sequence-based analyses.
 show_outro: true
 outro: |
   **Herramientas:** R/RStudio, GitHub, LaTeX.
